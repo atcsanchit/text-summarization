@@ -1,0 +1,10 @@
+pandas
+numpy
+seaborn
+os-sys
+scikit-learn
+catboost
+xgboost
+dill
+flask
+# -e .
