@@ -14,4 +14,8 @@ types-PyYAML
 scipy
 Flask
 Flask-Cors
+transformers
+datasets==2.10.1
+sentencepiece
+fsspec==2023.6.0
 -e .
