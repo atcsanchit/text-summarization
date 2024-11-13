@@ -162,4 +162,5 @@ cython_debug/
 #.idea/
 
 
-# data_ingestion/
+data_ingestion/
+model_trainer/
