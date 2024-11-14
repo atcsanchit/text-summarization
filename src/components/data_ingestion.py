@@ -42,9 +42,17 @@ class DataIngestion:
         except Exception as e:
             logging.info("Error in extract_zip_file")
             raise CustomException(e,sys)
+    
+    def initiate_data_ingestion(self):
+        try:
+            self.download_file()
+            self.extract_zip_file()
+
+        except Exception as e:
+            logging.info("Error in initiate_data_ingestion")
+            raise CustomException(e,sys)
         
 
 if __name__ == "__main__":
     data_ingestion_obj = DataIngestion()
-    data_ingestion_obj.download_file()
-    data_ingestion_obj.extract_zip_file()
+    data_ingestion_obj.initiate_data_ingestion()
