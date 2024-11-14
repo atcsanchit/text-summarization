@@ -164,3 +164,4 @@ cython_debug/
 
 data_ingestion/
 model_trainer/
+artifacts/
