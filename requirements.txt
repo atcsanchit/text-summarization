@@ -21,4 +21,5 @@ fsspec==2023.6.0
 protobuf==3.20.3
 rouge_score
 evaluate
+streamlit
 -e .
